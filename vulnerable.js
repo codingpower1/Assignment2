@@ -24,6 +24,6 @@ app.post('/calculate', (req, res) => {
 });
 
 // Insecure random number generation
-const insecureToken = Math.random().toString(36); // Not cryptographically secure
+const insecureToken = Math.random().toString(36);
 
 app.listen(3000);
